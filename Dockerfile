@@ -1,4 +1,4 @@
-FROM java:8-jdk
+FROM 192.168.0.237:20202/hwcse/java:8-jdk
 
 WORKDIR /home/apps/
 ADD target/hellotest-1.0.0.jar .
